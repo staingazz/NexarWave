@@ -3,8 +3,8 @@ import User from '../models/User.js';
 
 // Initialize Mailgun with your API Key and Domain
 const mg = mailgun({
-  apiKey: "a5608ac4043de0e644e320850d1cf4b1-79295dd0-dc1b7391" ,
-  domain: "mg.nexarwave.com" ,
+  apiKey: process.env.API_KEY ,
+  domain: process.env.MG_DOMAIN,
 });
 
 // POST: Add email to waitlist and send confirmation
