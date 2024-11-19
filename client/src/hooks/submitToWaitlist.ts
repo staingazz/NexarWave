@@ -1,7 +1,7 @@
 // /hooks/useWaitlist.ts
 
 export async function submitToWaitlist(email: string) {
-    const endpoint = 'http://localhost:6001/api/waitlist'; 
+    const endpoint = 'https://nexarwave.onrender.com/api/waitlist'; 
     const payload = { email };
   
     try {
