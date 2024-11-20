@@ -68,7 +68,7 @@ export const addToWaitlist = async (req, res) => {
             margin-top: 20px;
           }
           .footer {
-            font-size: 14px;
+            font-size: 14px; 
             color: #777777;
             text-align: center;
             margin-top: 30px;
